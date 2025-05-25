@@ -23,12 +23,28 @@
       color: white;
       padding: 2rem;
       text-align: center;
+      position: relative;
     }
     nav a {
       color: white;
       margin: 0 1rem;
       text-decoration: none;
       font-weight: 700;
+    }
+    .submit-button {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      background-color: #ffffff;
+      color: #0a2540;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .submit-button:hover {
+      background-color: #ddd;
     }
     .hero {
       background: url('images/Title-page.png') no-repeat center center/cover;
@@ -91,41 +107,53 @@
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
+    <a class="submit-button" href="submit.html">Submit a Drawing</a>
   </header>
 
   <section class="hero">
     <h1>Miscellaneous Steel, Masterfully Built</h1>
-    <p>Connection plates, base plates, embeds, edge angles, and weldments built to perform in the field.</p>
+    <p>Connection plates, base plates, embeds, and more built to perform in the field.</p>
   </section>
 
   <section class="section" id="capabilities">
     <h2>Our Capabilities</h2>
     <div class="grid">
-      <div class="card">
-        <img src="images/gusset-plate.png" alt="Gusset Plate Connection">
-        <h3>Connection Plates</h3>
-        <p>Our connection plates are engineered for durability and precision. Each piece is cut and drilled to exact specifications to ensure seamless integration into structural systems. These plates secure connections between beams and columns, supporting the integrity of your entire framework.</p>
-      </div>
-      <div class="card">
-        <img src="images/base-plate.png" alt="Steel Base Plate on Concrete">
-        <h3>Base & Embed Plates</h3>
-        <p>We fabricate custom base and embed plates that serve as the foundational connection between steel structures and concrete. Every plate is precision-machined with exact hole placement and reinforced for long-term structural performance in commercial and industrial settings.</p>
-      </div>
-      <div class="card">
-        <img src="images/stiffener-plate.png" alt="Steel Stiffener Welded to I-beam">
-        <h3>Stiffener Plates</h3>
-        <p>Our stiffener plates are designed to resist local buckling and improve load distribution across beams and columns. Whether interior or exterior flange reinforcement is required, we fabricate to meet both standard and custom engineering demands with dependable accuracy.</p>
-      </div>
-      <div class="card">
-        <img src="images/shear-tab.png" alt="Steel Shear Tab Connection">
-        <h3>Shear Tabs</h3>
-        <p>GSBS shear tabs are built to handle high-stress load transfers between structural members. We precision-cut every tab for ease of field installation, enabling quicker build times without compromising connection strength or safety standards.</p>
-      </div>
-      <div class="card">
-        <img src="images/angle-clip.png" alt="Angle Clips">
-        <h3>Angle Bracket</h3>
-        <p>GSBS angle brackets are tailored for structural and miscellaneous framing requirements. We cut and drill brackets to fit exact connection points, providing the flexibility needed for a variety of field applications, from joist hangers to curtain wall supports.</p>
-      </div>
+        <div class="grid">
+            <div class="card">
+              <img src="images/gusset-plate.png" alt="Gusset Plate Connection">
+              <h3>Gusset Plates</h3>
+              <p>Engineered for multi-directional load paths, our gusset plates offer rigid, high-strength connections between beams, braces, and columns. Designed for structural integrity under seismic and dynamic conditions.</p>
+            </div>
+          
+            <div class="card">
+              <img src="images/embed-plate.png" alt="Embed Plates">
+              <h3>Embed Plates</h3>
+              <p>Precision-cut steel plates with integrated studs or anchors, embedded into concrete to support steel connections with dependable anchorage and load transfer.</p>
+            </div>
+          
+            <div class="card">
+              <img src="images/base-plate.png" alt="Steel Base Plate on Concrete">
+              <h3>Base Plates</h3>
+              <p>Fabricated for accurate anchor bolt placement and load-bearing stability, our base plates ensure secure column-to-foundation connections.</p>
+            </div>
+          
+            <div class="card">
+              <img src="images/stiffener-plate.png" alt="Steel Stiffener Welded to I-beam">
+              <h3>Stiffener Plates</h3>
+              <p>Our stiffeners reduce web and flange deformation, reinforcing key stress points across steel beams and columns for enhanced structural resilience.</p>
+            </div>
+          
+            <div class="card">
+              <img src="images/shear-tab.png" alt="Steel Shear Tab Connection">
+              <h3>Shear Tabs</h3>
+              <p>These welded tabs deliver efficient field connections that transfer shear forces while minimizing installation time and labor costs.</p>
+            </div>
+          
+            <div class="card">
+              <img src="images/angle-clip.png" alt="Angle Clips">
+              <h3>Angle Brackets</h3>
+              <p>Versatile angle brackets that align and secure structural components in custom framing, decking, and miscellaneous steel assemblies.</p>
+            </div>          
     </div>
   </section>
 
